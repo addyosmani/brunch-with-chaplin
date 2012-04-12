@@ -22,10 +22,10 @@ and Twitter
 * Easy debugging: just uncomment `#console.debug` in all files.
 
 ## Getting started
-If you're using Brunch 1.0.x:
 
-* Clone or download the project.
-* Create new project via executing `brunch new --template <PATH TO THE PROJECT>`
+* First install brunch `npm install -g brunch`
+* Clone or download this project.
+* Create new project via executing `brunch new <appName> -t ~/brunch-with-chaplin/`
 
 Edit `app/lib/services/facebook.coffee` and change `facebookAppId` to your ID. 
 Note that if you'll use predefined `facebookAppId`, you'll need to use
@@ -45,6 +45,9 @@ Versions of software the skeleton uses:
 
 ## License
 The MIT license.
+
+
+Copyright (c) Addy Osmani
 
 Copyright (c) Paul Miller (http://paulmillr.com/)
 
